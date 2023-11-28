@@ -4,6 +4,7 @@ Create a new TypeScript workspace, that has 3 files:
 * `app.ts`
 * `helpers.ts`
 * `types.ts`
+* remember to create a `.gitignore` file and exclude `node_modules` folder from being staged, committed, and pushed.
 ### `types.ts`
 * create a type called `Faculty` which represents an object with `firstname`, and `lastname` properties, both accept a `string`.
 * create a type called `Course` which represents an object with `title`, `code`, and `faculty`. The `title` and `code` accept a `string` value, and `faculty` accepts an array of `Faculty`.
