@@ -14,6 +14,7 @@ Create a new TypeScript workspace, that has 3 files:
 create a function `addFacultyToCourse` which accepts two parameters: `course` and `faculty`. The function returns boolean.
 * return `true` if the faculty's `firstname` and `lastname` does not previously exists in the course, and was added successfully.
 * return `false` if the faculty's `firstname` and `lastname` already exists in the course, do not accept adding the same faculty twice.
+
 create a function `addCourseToProgram` which accepts two parameters: `program` and `course`. The function returns boolean.
 * return `true` if the course `code` does not previously exists in the program, and was added successfully.
 * return `false` if the course `code` already exists in the program, do not accept adding the same course twice.
